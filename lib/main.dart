@@ -1,8 +1,7 @@
-import 'package:ems/Login_UI/first_page.dart';
 import 'package:ems/reusbale_widgets_constants.dart';
 import 'package:flutter/material.dart';
 import 'package:ems/landing_page_afterlogin.dart';
-import 'package:ems/PopularNow.dart';
+// import 'package:ems/PopularNow.dart';
 
 // import 'package:ems/landing_page_afterlogin.dart';
 void main() {
@@ -18,11 +17,7 @@ void main() {
       // home: MyApp(),
       //  home: MyHomePage(),
       home: HomePage(),
-      // home: PopularDetails(),
       // home: PopularNow(),
-
-
     ),
-
   );
 }

@@ -18,40 +18,9 @@ class _PopularNowState extends State<PopularNow> {
     insertrecords();
     // getRecord();
   }
-
+  bool isLoading = true;
   List<dynamic> response = [];
 
-  // Future<void> viewHotelData(String id) async {
-  //   try {
-  //     String url = "http://127.0.0.1:5000";
-  //     var response = await http.post(Uri.parse(url));
-  //
-  //
-  //       if (response.statusCode == 200) {
-  //         var data = response.body;
-  //         debugPrint(data);
-  //         debugPrint(id);
-  //       } else {
-  //         debugPrint("Request failed: ${response.statusCode}");
-  //       }
-  //
-  //   } catch (e) {
-  //     debugPrint("Error Viewing Data");
-  //   }
-  // }
-
-  // Future<void> getRecord() async {
-  //   String uri = "http://127.0.0.1:5000";
-  //   try {
-  //     var response = await http.get(Uri.parse(uri));
-  //     setState(() {
-  //       List data = jsonDecode(response.body);
-  //       print(response.body);
-  //     });
-  //   } catch (e) {
-  //     print(e);
-  //   }
-  // }
   Future<void> insertrecords() async {
     if (eventType.text != "" || city.text != "") {
       try {
@@ -83,9 +52,13 @@ class _PopularNowState extends State<PopularNow> {
         // Check if the response was successful (status code 200)
         if (res.statusCode == 200) {
           print('Success');
+          setState(() {
+            isLoading = false;
+          });
         } else {
           print('Request failed with status code ${res.statusCode}');
         }
+
       } catch (e) {
         print('Error: $e');
       }
@@ -97,7 +70,7 @@ class _PopularNowState extends State<PopularNow> {
   @override
   void initState() {
     super.initState();
-    // insertrecords();
+    insertrecords();
     WidgetsBinding.instance.addPostFrameCallback((_) {
       // Call the onPressed callback of the ButtonText widget
       handleSearch();
@@ -138,43 +111,24 @@ class _PopularNowState extends State<PopularNow> {
               //     ],
               //   ),
               // ),
-
-              // TextButton(
-              //   onPressed: () {
-              //     insertrecords();
-              //   },
-              //   child: Text("helo"),
-              // ),
-
-              // Expanded(
-              //   child: ListView.builder(
-              //     itemCount: 3,
-              //     itemBuilder: (context, index) {
-              //       return Card(
-              //         child: ListTile(
-              //           leading: Icon(Icons.skateboarding),
-              //           // title: response[Hid],
-              //         ),
-              //       );
-              //     },
-              //   ),
-              // ),
               Expanded(
-                child: ListView.builder(
+
+                child: isLoading
+                    ? Center(child: CircularProgressIndicator())
+                    : ListView.builder(
                   itemCount: response.length,
                   itemBuilder: (context, index) {
                     return Card(
                       child: ListTile(
                         iconColor: Colors.red,
-                        leading: Image.asset(
-                          'image/hotel.jpeg',
-                        ),
+                        leading: Image.asset('image/hotel.jpeg'),
                         title: Text(response[index]['Hname']),
                       ),
                     );
                   },
                 ),
               ),
+
             ],
           ),
         ),
@@ -185,34 +139,3 @@ class _PopularNowState extends State<PopularNow> {
 
 //
 //
-
-//
-// Expanded(
-// flex: 2,
-// // color: Colors.red,
-// child: ListView.builder(
-// itemCount: response.length,
-// itemBuilder: (context, index) {
-// return Card(
-// child: ListTile(
-// onTap: () {
-// // Navigator.push(
-// //   context,
-// //   MaterialPageRoute(
-// //     builder: (context) => insertrecords(
-// //         eventType: response[index]["Event"],
-// //         city : response[index]["password"]),
-// //   ),
-// // );
-// },
-// leading: Icon(
-// CupertinoIcons.heart,
-// color: Colors.red,
-// ),
-// title: Text(response[index]['Hname']),
-// subtitle: Text(response[index]['Hid']),
-// ),
-// );
-// },
-// ),
-// )
