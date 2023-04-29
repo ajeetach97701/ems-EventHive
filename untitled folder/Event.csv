@@ -1,0 +1,121 @@
+ID,Hotel name,Hotel star rating,Customer rating,City,Event_Type
+1,Europe,5,8.3,Sarajevo,Birthday
+2,Europe,5,8.3,Sarajevo,Anniversary
+3,Hills,5,8.5,Sarajevo,Birthday
+4,Hills,5,8.5,Sarajevo,Birthday
+5,Boutique,4,8.7,Sarajevo,Marriage
+6,Boutique,4,8.7,Sarajevo,Marriage
+7,Boutique,4,8.7,Sarajevo,Birthday
+8,Radon plaza,5,8.6,Sarajevo,Birthday
+9,Radon plaza,5,8.6,Sarajevo,Seminar
+10,Holiday inn,4,8.4,Sarajevo,Seminar
+11,Holiday inn,4,8.4,Sarajevo,Birthday
+12,Holiday inn,4,8.4,Sarajevo,Seminar
+13,Grand,3,7.9,Sarajevo,Birthday
+14,Grand,3,7.9,Sarajevo,Birthday
+15,Hayat,3,7.1,Sarajevo,Marriage
+16,Hayat,3,7.1,Sarajevo,Seminar
+17,Brkic,2,6.5,Sarajevo,Marriage
+18,Brkic,2,6.5,Sarajevo,Seminar
+19,Saraj,3,7.9,Sarajevo,Marriage
+20,Old town,3,9.4,Sarajevo,Birthday
+21,Old town,3,9.4,Sarajevo,Seminar
+22,RuMa,3,9.3,Sarajevo,Anniversary
+23,RuMa,3,9.3,Sarajevo,Marriage
+24,Riverside residence,4,9.4,Sarajevo,Marriage
+25,Riverside residence,4,9.4,Sarajevo,Anniversary
+26,Bristol,4,8.7,Sarajevo,Seminar
+27,Bristol,4,8.7,Sarajevo,Anniversary
+28,Opal home,4,8.9,Sarajevo,Seminar
+29,Opal home,4,8.9,Sarajevo,Birthday
+30,Hollywood,4,7.9,Sarajevo,Anniversary
+31,Fala,2,8,Zagreb,Anniversary
+32,Fala,2,8,Zagreb,Birthday
+33,Fala,2,8,Zagreb,Seminar
+34,Zagreb,2,6.9,Zagreb,Anniversary
+35,Zagreb,2,6.9,Zagreb,Anniversary
+36,Best western,3,8.9,Zagreb,Birthday
+37,Best western,3,8.9,Zagreb,Seminar
+38,Forty two,3,8.4,Zagreb,Seminar
+39,Forty two,3,8.4,Zagreb,Seminar
+40,Viena,3,8,Zagreb,Seminar
+41,Viena,3,8,Zagreb,Birthday
+42,Palace,4,8.8,Zagreb,Marriage
+43,Palace,4,8.8,Zagreb,Birthday
+44,International,4,8.7,Zagreb,Marriage
+45,International,4,8.7,Zagreb,Seminar
+46,Garden,4,8.3,Zagreb,Birthday
+47,Garden,4,8.3,Zagreb,Birthday
+48,Esplanade,5,9.3,Zagreb,Birthday
+49,Double tree,5,8.7,Zagreb,Birthday
+50,Double tree,5,8.7,Zagreb,Marriage
+51,Dubrovnik,4,9,Zagreb,Birthday
+52,Dubrovnik,4,9,Zagreb,Anniversary
+53,Academia,4,8.9,Zagreb,Birthday
+54,Academia,4,8.9,Zagreb,Marriage
+55,Rebro,3,8.7,Zagreb,Anniversary
+56,Rebro,3,8.7,Zagreb,Birthday
+57,Orient ekspres,3,8.4,Zagreb,Seminar
+58,Orient ekspres,3,8.4,Zagreb,Marriage
+59,Orient ekspres,3,8.4,Zagreb,Birthday
+60,The loop,3,9.1,Zagreb,Marriage
+61,Public House Hotel,4,9.5,Belgrade,Anniversary
+62,Public House Hotel,4,9.5,Belgrade,Anniversary
+63,Envoy Hotel,4,9.5,Belgrade,Seminar
+64,Hilton Belgrade,1,3,Birthday,Skadarlija
+65,Hotel Bohemian Garni,3,8.8,Belgrade,Marriage
+66,Mama Shelter Belgrade,4,9.2,Belgrade,Seminar
+67,Hotel N,3,7.8,Belgrade,Birthday
+68,Hotel N,3,7.8,Belgrade,Anniversary
+69,Hotel N,3,7.8,Belgrade,Seminar
+70,Hotel Rex,3,8.2,Belgrade,Anniversary
+71,Room 25 Belgrade,4,9.7,Belgrade,Anniversary
+72,Room 25 Belgrade,4,9.7,Belgrade,Seminar
+73,Garni Hotel Apart K,3,8.8,Belgrade,Marriage
+74,City Code Exclusive,4,8.9,Belgrade,Anniversary
+75,City Code Exclusive,4,8.9,Belgrade,Marriage
+76,Hotel Avalon Garni,4,8.6,Belgrade,Marriage
+77,Hotel Avalon Garni,4,8.6,Belgrade,Birthday
+78,Hyatt,5,8.9,Belgrade,Birthday
+79,Square nine,5,9.5,Belgrade,Seminar
+80,Metropol palace,5,8.8,Belgrade,Marriage
+81,Hyatt,5,8.9,Belgrade,Birthday
+82,Hotel Avalon Garni,4,8.6,Belgrade,Anniversary
+83,Hotel Majestic,4,8.7,Belgrade,Seminar
+84,Saint Ten Hotel,5,9.4,Belgrade,Anniversary
+85,In Hotel,4,9,Belgrade,Birthday
+86,Falkensteiner Hotel,4,9.3,Belgrade,Anniversary
+87,Hotel Moskva,4,9,Belgrade,Anniversary
+88,Tullip Inn Putnik,3,8.2,Belgrade,Marriage
+89,Hotel Union,3,8.9,Belgrade,Seminar
+90,Hotel Elegance,3,8.8,Belgrade,Seminar
+91,Hotel Emonec,3,8.6,Ljubljana,Marriage
+92,Atelier Hotel,3,8.9,Ljubljana,Birthday
+93,Adora Hotel,3,9,Ljubljana,Marriage
+94,Hotel Center,3,8.9,Ljubljana,Marriage
+95,Hotel Lev,4,8.7,Ljubljana,Anniversary
+96,Hotel Lev,4,8.7,Ljubljana,Birthday
+97,Best Western Premier Hotel,4,8.8,Ljubljana,Anniversary
+98,Best Western Premier Hotel ,4,8.8,Ljubljana,Seminar
+99,Radisson Blu Plaza Hotel ,4,8.9,Ljubljana,Seminar
+100,Radisson Blu Plaza Hotel,4,8.9,Ljubljana,Seminar
+101,Radisson Blu Plaza Hotel,4,8.9,Ljubljana,Seminar
+102,City Hotel,3,9.1,Ljubljana,Birthday
+103,City Hotel,3,9.1,Ljubljana,Birthday
+104,Bit Center Hotel,2,7.7,Ljubljana,Marriage
+105,Bit Center Hotel,2,7.7,Ljubljana,Anniversary
+106,Hotel Vila Katrca,3,9,Ljubljana,Marriage
+107,Hotel Vila Katrca,3,9,Ljubljana,Anniversary
+108,Hotel Vila Katrca,3,9,Ljubljana,Anniversary
+109,intercontinental,5,9,Ljubljana,Marriage
+110,Hotel Mrak,3,8.7,Ljubljana,Marriage
+111,Vander Urbani Resort,4,9.7,Ljubljana,Birthday
+112,Four Points by Sheraton Ljubljana Mons,4,8.7,Ljubljana,Seminar
+113,Hotel Nox,4,9.2,Ljubljana,Birthday
+114,Grand Hotel Union,4,9,Ljubljana,Birthday
+115,B&B Hotel Ljubljana Park,3,8.3,Ljubljana,Anniversary
+116,WUD Hotel,3,8.9,Ljubljana,Anniversary
+117,uHotel,4,9,Ljubljana,Seminar
+118,Allegro Hotel,4,8.5,Ljubljana,Anniversary
+119,M Hotel,4,8.4,Ljubljana,Anniversary
+120,Austria Trend Hotel,4,8.8,Ljubljana,Seminar
